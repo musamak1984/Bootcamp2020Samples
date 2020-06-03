@@ -32,6 +32,6 @@ jobs:
       
     # Runs a set of commands using the runners shell  
     - name: Deploy at Surge
-      run: surge ./copperwillow.surge.sh/ --token ${{ secrets.SURGE_TOKEN_BOOTCAMP2020 }}
+      run: surge ./copperwillow.surge.sh --token ${{ secrets.SURGE_TOKEN_BOOTCAMP2020 }}
       
       echo Deployed by Github_CI.
